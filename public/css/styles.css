@@ -1,0 +1,25 @@
+:root {
+
+    --color-raseko-hot-pink: rgb(232,32,112);
+    --color-raseko-dark-blue: rgb(27,51,89);
+    --color-raseko-cool-gray: rgb(239,239,239);
+    --color-raseko-dark-turqoise: rgb(0,150,179);
+    --color-raseko-light-turqoise: rgb(75,188, 197);
+    --color-raseko-pink80: rgba(232,32,112,0.8);
+    --color-raseko-pink60: rgba(232,32,112,0.6);
+    --color-raseko-pink40: rgba(232,32,112,0.4);
+
+}
+
+body {
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+
+}
+
+h1 {
+
+}
+
+.accented {
+    
+}

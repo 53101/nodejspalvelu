@@ -10,7 +10,13 @@ app.set('view engine', 'handlebars');
 // app.set('views', './views');
 
 app.get('/', (req, res) => {
+    let menu = {
+        'main_dish': 'Kalapuikot',
+        'vegetarian_dish': 'Kasvispihvi',
+        'sides': 'Keitetyt perunat'
+    }
     res.render("index.handlebars")
 });
 
-app.listen(PORT)
+app.listen(PORT);
+console.log("Started");
